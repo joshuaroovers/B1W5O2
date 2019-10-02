@@ -4,10 +4,10 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
+    margin: 0px;
+    padding: 0px;
 }
-image.center{
-    display: block;
-}
+
 a.curentpage{
     color: rgba(160, 160, 160, 0.8)
 }
@@ -16,17 +16,31 @@ a{
     color: rgba(255, 255, 255, 0.8);
     margin-left: 3%;
     margin-right: 3%;
+    
+}
+a.button{
+    float: right;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 0px;
+    margin-right: 1px;
+    margin-top: 0px;
+    background-color: rgba(141, 141, 141, 0.8); 
+    padding: 7px 20px;
+  
+    
 }
 span.icontekst{
     font-family: 'Roboto', sans-serif;
     color: rgba(255, 255, 255, 0.8); 
     font-size: 50%;
 }
-p.box{
-   
-    height: 50px;
-    
+header.box{
+    height: 32px;
     background-color: white;
+}
+div{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 
